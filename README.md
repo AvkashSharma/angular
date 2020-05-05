@@ -18,3 +18,6 @@ npm start or ng serve
 
 ### Interpolation Syntax
 {{ Name of Property}}
+
+### Generating a new component
+ ng generate component <name>
