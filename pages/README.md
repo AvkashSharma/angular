@@ -26,4 +26,21 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
+## ngSwitch 
+```javascript
+<div [ngSwitch]="currentPage">
+  <div *ngSwitchCase="0">
+    Current page is 0
+  </div>
+  <div *ngSwitchCase="1">
+    Current page is 1
+  </div>
+  <div *ngSwitchCase="2">
+    Current page is 2
+  </div>
+  <div *ngSwitchDefault>
+   Unknown current page
+  </div>
+</div>
+```
 
