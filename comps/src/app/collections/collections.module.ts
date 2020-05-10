@@ -7,6 +7,6 @@ import { ComponentHomeComponent } from './component-home/component-home.componen
 @NgModule({
 	declarations: [ ComponentHomeComponent ],
 	imports: [ CommonModule, CollectionsRoutingModule ],
-	exports: [ ComponentHomeComponent ]
+	exports: []
 })
 export class CollectionsModule {}
